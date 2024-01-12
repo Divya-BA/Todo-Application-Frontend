@@ -11,7 +11,7 @@ const Todo = () => {
   const [showCompleted, setShowCompleted] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const todosPerPage = 6;
-  const url=`https://todo-application-ba.onrender.com`
+  const url=`http://localhost:3000`
 
   const fetchAllTask = async () => {
     try {

@@ -20,7 +20,7 @@ const Profile = () => {
     const [user, setUser] = useState({ name: '', email: '', id: '' });
     const [oldPassword, setOldPassword] = useState('');
     const [newPassword, setNewPassword] = useState('');
-     const url=`https://todo-application-ba.onrender.com`
+    const url=`http://localhost:3000`
 
     
 
