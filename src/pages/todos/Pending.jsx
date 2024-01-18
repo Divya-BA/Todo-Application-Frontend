@@ -10,8 +10,7 @@ const Pending = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const todosPerPage = 6;
   const navigate = useNavigate();
-  // const url=`https://todo-application-ba.onrender.com`
-  const url=`http://localhost:3000`
+  const url=`https://todo-application-ba.onrender.com`
 
   useEffect(() => {
     const fetchPendingTask = async () => {
