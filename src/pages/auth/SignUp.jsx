@@ -9,8 +9,7 @@ const SignUp = () => {
     const [userInfo, setUserInfo] = useState({ name: "", username: "", email: "", password: "", bio: "" });
     const [loading, setLoading] = useState(false);  // Add loading state
     const [errorMessage, setErrorMessage] = useState('');
-    // const url=`https://todo-application-ba.onrender.com`
-    const url=`http://localhost:3000`
+    const url=`https://todo-application-ba.onrender.com`
 
     const handleOnChange = (e) => {
         setUserInfo({ ...userInfo, [e.target.name]: e.target.value });

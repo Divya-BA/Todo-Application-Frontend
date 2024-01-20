@@ -7,8 +7,7 @@ import { formatDistanceToNow } from 'date-fns';
 const Task = ({ todo, fun, show = false }) => {
   const [isInputBox, setIsInputBox] = useState(false);
   const [inputBoxValue, setInputBoxValue] = useState('');
-  // const url=`https://todo-application-ba.onrender.com`
-  const url=`http://localhost:3000`
+  const url=`https://todo-application-ba.onrender.com`
 
 
   const handleUpdateBoxOpen = () => {
